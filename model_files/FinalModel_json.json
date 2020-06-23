@@ -1758,7 +1758,7 @@
 "name":"DNA replication_c0",
 "compartment":"c0",
 "charge":0,
-"formula":"null",
+"formula":"",
 "annotation":{
 "metanetx.chemical":"MNXM51417",
 "sbo":"SBO:0000247",
@@ -11956,7 +11956,7 @@
 "name":"RNA transcription_c0",
 "compartment":"c0",
 "charge":0,
-"formula":"null",
+"formula":"",
 "annotation":{
 "metanetx.chemical":"MNXM81014",
 "sbo":"SBO:0000247",
@@ -15033,7 +15033,7 @@
 "name":"Protein biosynthesis_c0",
 "compartment":"c0",
 "charge":0,
-"formula":"null",
+"formula":"",
 "annotation":{
 "metanetx.chemical":"MNXM78334",
 "sbo":"SBO:0000247",
@@ -25478,7 +25478,7 @@
 "name":"Biomass_c0",
 "compartment":"c0",
 "charge":0,
-"formula":"null",
+"formula":"",
 "annotation":{
 "metanetx.chemical":"BIOMASS",
 "sbo":"SBO:0000247",
@@ -30641,7 +30641,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-gly)",
+"id":"MEAMP1_ala_gly",
 "name":"RXN0-6977.c_c0",
 "metabolites":{
 "L_alagly_c":-1.0,
@@ -31729,7 +31729,7 @@
 }
 },
 {
-"id":"['R06000'",
+"id":"R06000",
 "name":"R04661_c0",
 "metabolites":{
 "cmp_c":1.0,
@@ -32394,7 +32394,7 @@
 }
 },
 {
-"id":"FLVR(NAD)",
+"id":"FLVR_NAD",
 "name":"reduced-riboflavin:NAD+ oxidoreductase_c0",
 "metabolites":{
 "h_c":-2.0,
@@ -33008,7 +33008,7 @@
 }
 },
 {
-"id":"MEAMP1(gly-pro-L)",
+"id":"MEAMP1_gly_pro_L",
 "name":"methionyl aminopeptidase_c0",
 "metabolites":{
 "cpd11588_c0":-1.0,
@@ -33616,7 +33616,7 @@
 }
 },
 {
-"id":"L-LACD2",
+"id":"L_LACD2",
 "name":"lactate oxidation_c0",
 "metabolites":{
 "lac__L_c":-1.0,
@@ -34953,7 +34953,7 @@
 }
 },
 {
-"id":"['R06147'",
+"id":"R06147",
 "name":"Acylneuraminyl hydrolase_c0",
 "metabolites":{
 "acnam_c":-1.0,
@@ -36147,7 +36147,7 @@
 }
 },
 {
-"id":"MEAMP1(gly-gln)",
+"id":"MEAMP1_gly_gln",
 "name":"RXN0-6983.c_c0",
 "metabolites":{
 "cpd11580_c0":-1.0,
@@ -36372,7 +36372,7 @@
 }
 },
 {
-"id":"['R06092'",
+"id":"R06092",
 "name":"cellobiose glucohydrolase_c0",
 "metabolites":{
 "cellb_c":-1.0,
@@ -36670,166 +36670,6 @@
 ],
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn03536"
-}
-},
-{
-"id":"['R04422'",
-"name":"ATP:ADP phosphatransferase_c0",
-"metabolites":{},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"KFX31546.1",
-"annotation":{
-"biocyc":[
-"META:3.4.22.63-RXN.c",
-"META:RXN-16435",
-"META:RXN-18770",
-"META:RXN-12386",
-"META:RXN-18392",
-"META:PGLYCEROLTRANSII-RXN.c",
-"META:3.4.22.54-RXN.c",
-"META:ARYLSULFATE-SULFOTRANSFERASE-RXN.c",
-"META:RXN-12950.c",
-"META:3.4.22.60-RXN.c",
-"META:3.4.22.61-RXN.c",
-"META:TRANS-RXN-239",
-"META:RXN-14808",
-"META:2.4.1.161-RXN",
-"META:DEXTRIN-DEXTRANASE-RXN",
-"META:NUCLEOSIDE-RIBOSYLTRANSFERASE-RXN.c",
-"META:RXN-18707",
-"META:RXN-18709",
-"META:RXN-8315.c",
-"META:DISULISOM-RXN",
-"META:RXN-12950",
-"META:RXN-19525",
-"META:PGLYCEROLTRANSII-RXN.p",
-"META:RXN-12947.c",
-"META:3.4.22.57-RXN.c",
-"META:3.4.22.64-RXN.c",
-"META:3.4.22.65-RXN.c",
-"META:ALDOSE-BETA-FRUCTOSYLTRANSFERASE-RXN",
-"META:RXN-18705",
-"META:TRANS-RXN-374",
-"META:DEXTRIN-DEXTRANASE-RXN.c",
-"META:3.4.22.62-RXN.c",
-"META:RXN-12949.c",
-"META:TRANS-RXN-373",
-"META:RXN-12948.c",
-"META:RXN-14753",
-"META:RXN-12386.v",
-"META:RXN-13572",
-"META:3.4.22.56-RXN.c",
-"META:3.4.22.58-RXN.c",
-"META:3.4.22.59-RXN.c",
-"META:RXN-13070.c",
-"META:3.4.22.55-RXN.c",
-"META:RXN-13705",
-"META:NUCLEOSIDE-RIBOSYLTRANSFERASE-RXN",
-"META:RXN-18704",
-"META:RXN-12947",
-"META:RXN-17355",
-"META:2.4.1.100-RXN",
-"META:ARYLSULFATE-SULFOTRANSFERASE-RXN",
-"META:2.4.1.161-RXN.c",
-"META:RXN-12386.c",
-"META:ALDOSE-BETA-FRUCTOSYLTRANSFERASE-RXN.c",
-"META:2.4.1.100-RXN.c",
-"META:NUCLEOSIDE-DIP-KIN-RXN.c.metaexp.ADP_ATP",
-"META:RXN-14409",
-"META:RXN-14693",
-"META:RXN-12949",
-"META:RXN-14500",
-"META:NUCLEOSIDE-DEOXYRIBOSYLTRANSFERASE-RXN.c",
-"META:RXN0-5305.c.metaexp.CPD0-1108",
-"META:NUCLEOSIDE-DIP-KIN-RXN.n.metaexp.ADP_ATP",
-"META:RXN-16434",
-"META:RXN-14747",
-"META:RXN-14850",
-"META:NUCLEOSIDE-DEOXYRIBOSYLTRANSFERASE-RXN",
-"META:PGLYCEROLTRANSII-RXN",
-"META:RXN-12948"
-],
-"ec-code":[
-"2.4.2.5",
-"2.8.2.22",
-"2.7.4.6",
-"2.7.8.21",
-"2.4.1.2",
-"2.4.1.161",
-"2.4.2.6",
-"5.3.4.1",
-"2.8.1",
-"2.8.1.M4",
-"2.7.8.-",
-"2.4.1.162",
-"2.4.1.100"
-],
-"kegg.reaction":[
-"R04422",
-"R02996",
-"R07480",
-"R06183",
-"R00124",
-"R04168",
-"R08679",
-"R02121",
-"R03852",
-"R04193"
-],
-"metanetx.reaction":[
-"MNXR123950",
-"MNXR115083",
-"MNXR115686",
-"MNXR118896",
-"MNXR120862",
-"MNXR140284",
-"MNXR120084",
-"MNXR139160",
-"MNXR117519",
-"MNXR120083",
-"MNXR116094",
-"MNXR117817",
-"MNXR116118",
-"MNXR108881",
-"MNXR115828",
-"MNXR111109",
-"MNXR118971",
-"MNXR108477",
-"MNXR116098",
-"MNXR118890",
-"MNXR117816",
-"MNXR118673",
-"MNXR140343",
-"MNXR140336",
-"MNXR118859",
-"MNXR108880",
-"MNXR140423",
-"MNXR108725",
-"MNXR96123",
-"MNXR108478",
-"MNXR108706",
-"MNXR107320",
-"MNXR112194",
-"MNXR115109",
-"MNXR115721",
-"MNXR112195",
-"MNXR140285",
-"MNXR140488",
-"MNXR108705",
-"MNXR111110",
-"MNXR107321",
-"MNXR139161",
-"MNXR106400",
-"MNXR115849"
-],
-"rhea":[
-"51075",
-"14628",
-"52995"
-],
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn14003"
 }
 },
 {
@@ -37300,7 +37140,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-thr)",
+"id":"MEAMP1_ala_thr",
 "name":"methionyl aminopeptidase_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -37997,7 +37837,7 @@
 }
 },
 {
-"id":"PFK_(adp)",
+"id":"PFK_adp",
 "name":"ADP:D-fructose-6-phosphate 1-phosphotransferase_c0",
 "metabolites":{
 "adp_c":-1.0,
@@ -40242,7 +40082,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-gln)",
+"id":"MEAMP1_ala_gln",
 "name":"RXN0-6976.c_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -40454,7 +40294,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-leu)",
+"id":"MEAMP1_ala_leu",
 "name":"RXN0-6979.c_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -43169,7 +43009,7 @@
 }
 },
 {
-"id":"['R06012'",
+"id":"R06012",
 "name":"R04634_c0",
 "metabolites":{
 "acnam_c":1.0,
@@ -44552,7 +44392,7 @@
 }
 },
 {
-"id":"METSR-S1",
+"id":"METSR_S1",
 "name":"L-methionine:oxidized-thioredoxin S-oxidoreductase_c0",
 "metabolites":{
 "h2o_c":-1.0,
@@ -45492,7 +45332,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-glu)",
+"id":"MEAMP1_ala_glu",
 "name":"methionyl aminopeptidase_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -46278,7 +46118,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-asp)",
+"id":"MEAMP1_ala_asp",
 "name":"RXN0-6975.c_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -48583,7 +48423,7 @@
 }
 },
 {
-"id":"L-LACt4",
+"id":"L_LACt4",
 "name":"L-lactate reversible transport via proton symport_c0",
 "metabolites":{
 "h_c":1.0,
@@ -49312,7 +49152,7 @@
 }
 },
 {
-"id":"['R03491'",
+"id":"R03491",
 "name":"R03491_c0",
 "metabolites":{
 "acnam_c":-1.0,
@@ -52657,7 +52497,7 @@
 }
 },
 {
-"id":"BG(CELLB)",
+"id":"BG_CELLB",
 "name":"cellobiose glucohydrolase_c0",
 "metabolites":{
 "cellb_c":-1.0,
@@ -52889,7 +52729,7 @@
 }
 },
 {
-"id":"['R05998'",
+"id":"R05998",
 "name":"R05117_c0",
 "metabolites":{
 "acnam_c":1.0,
@@ -52940,7 +52780,7 @@
 }
 },
 {
-"id":"ADCOBASr",
+"id":"ADCOBASrADCOBASr",
 "name":"adenosylcobinamide amidohydrolase_c0",
 "metabolites":{
 "adcobhex_c":-1.0,
@@ -53502,7 +53342,7 @@
 }
 },
 {
-"id":"['R06009'",
+"id":"R06009",
 "name":"R04632_c0",
 "metabolites":{
 "cmp_c":1.0,
@@ -55237,7 +55077,7 @@
 }
 },
 {
-"id":"['R05940'",
+"id":"R05940",
 "name":"CMP-N-acetylneuraminate:alpha-N-acetylneuraminyl-2,3-beta-D-galactoside alpha-2,8-N-acetylneuraminyltransferase_c0",
 "metabolites":{
 "cmp_c":1.0,
@@ -55659,7 +55499,7 @@
 }
 },
 {
-"id":"MEAMP1(ala-his)",
+"id":"MEAMP1_ala_his",
 "name":"RXN0-6978.c_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -56415,7 +56255,7 @@
 }
 },
 {
-"id":"MEAMP1(gly-met)",
+"id":"MEAMP1_gly_met",
 "name":"RXN0-6974.c_c0",
 "metabolites":{
 "cpd11591_c0":-1.0,
@@ -58243,6 +58083,7 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"EP10_17550 and KFX31227.1",
 "annotation":{
+"bigg.reaction":"TKT1",
 "biocyc":[
 "META:1TRANSKETO-RXN",
 "META:1TRANSKETO-RXN.c"
@@ -58252,8 +58093,7 @@
 "metanetx.reaction":"MNXR107105",
 "rhea":"10511",
 "sbo":"SBO:0000176",
-"seed.reaction":"rxn01200",
-"bigg.reaction":"TKT1"
+"seed.reaction":"rxn01200"
 }
 },
 {
@@ -59546,7 +59386,7 @@
 }
 },
 {
-"id":"MEAMP1(met-ala)",
+"id":"MEAMP1_met_ala",
 "name":"methionyl aminopeptidase_c0",
 "metabolites":{
 "ala__L_c":1.0,
@@ -61503,7 +61343,7 @@
 }
 },
 {
-"id":"['R04650'",
+"id":"R04650",
 "name":"R04650_c0",
 "metabolites":{
 "acnam_c":-1.0,
@@ -63757,7 +63597,7 @@
 }
 },
 {
-"id":"['R06005'",
+"id":"R06005",
 "name":"R04649_c0",
 "metabolites":{
 "cmp_c":1.0,
@@ -64232,7 +64072,7 @@
 }
 },
 {
-"id":"MEAMP1(gly-asn)",
+"id":"MEAMP1_gly_asn",
 "name":"methionyl aminopeptidase_c0",
 "metabolites":{
 "asn__L_c":1.0,
@@ -65586,7 +65426,7 @@
 }
 },
 {
-"id":"['R05549'",
+"id":"R05549",
 "name":"R05549_c0",
 "metabolites":{
 "gal_c":1.0,
@@ -68576,7 +68416,7 @@
 }
 },
 {
-"id":"BTDD-RR",
+"id":"BTDD_RR",
 "name":"R R butanediol dehydrogenase",
 "metabolites":{
 "actn__R_c":1.0,
@@ -68642,7 +68482,7 @@
 }
 },
 {
-"id":"BTDt-RR",
+"id":"BTDt_RR",
 "name":"(R,R)-butanediol transport",
 "metabolites":{
 "btd_RR_c":1.0,
@@ -68683,7 +68523,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"JPYA01000150",
 "annotation":{
 "seed.reaction":"rxn05167"
 }
@@ -68700,7 +68540,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"NZ_JPYA01000060",
 "subsystem":"Pentose and glucuronate interconversions"
 },
 {
@@ -68715,7 +68555,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"JPYA01000060",
 "subsystem":"Pentose and glucuronate interconversions"
 },
 {
@@ -68727,7 +68567,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"JPYA01000186.1",
 "subsystem":"Pentose and glucuronate interconversions"
 }
 ],
@@ -78792,11 +78632,27 @@
 },
 {
 "id":"EP10_RS00785",
+"name":"EP10_RS00785"
+},
+{
+"id":"NZ_JPYA01000060",
+"name":""
+},
+{
+"id":"JPYA01000060",
+"name":""
+},
+{
+"id":"JPYA01000186.1",
+"name":""
+},
+{
+"id":"JPYA01000150",
 "name":""
 }
 ],
-"id":"iMK1317",
-"name":"iMK1317",
+"id":"iMK1321",
+"name":"iMK1321",
 "compartments":{
 "c0":"",
 "e0":""

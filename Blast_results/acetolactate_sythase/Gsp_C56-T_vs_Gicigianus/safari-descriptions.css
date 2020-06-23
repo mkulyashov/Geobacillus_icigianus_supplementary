@@ -1,0 +1,22 @@
+td.lim {
+max-width: 30em;
+}
+
+table#descs td {
+font-size: 80%;
+}
+
+table#descs tr.first th {
+font-size: 80%;
+}
+
+div.tgl table.defln td {
+font-size: 110%;
+}
+
+div.tgl table.defln tr.first th {
+font-size: 110%;
+}
+
+
+

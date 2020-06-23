@@ -1,0 +1,98 @@
+.ncbi-header,#navcontent ul,#navHdr,ul.citation,a.help,.hidden,.secFlitRes,#toolbar,.selctall,.ncbi-feedback-button,#cddDesc,
+.usa-accordion-button.toolsCtr,#tabGraphic div.toolbar ul.left-tools, #tabAlign ul.right-tools,.or,#topBtn,#ncbi-footer,
+#orgTable .alnSeqLinks {
+  display: none;
+}
+
+#navcontent { 
+ background-color: white;
+ margin-bottom: 0;
+}
+
+nav#navcontent a.ncbi-topnav-root {
+  font-size: 150%;
+}
+#navcontent h1 {
+ font-size: 100%;
+}
+
+nav#navcontent .usa-grid {
+  font-size: 50%;
+}
+dl dt {
+  border-top:none;
+}
+
+button.usa-accordion-button {
+  border: none;
+  font-size: 130%;
+  font-weight: bold;
+  display: block;
+}
+
+#ulDescr {
+  list-style-type: none;
+}
+
+#tabGraphic div.toolbar ul.right-tools li, #ulAlign li,table.ui-ncbigrid th span.orgTaxHd a 
+{
+  display: inline;
+  margin-right: 1em;
+}
+
+ul#ulDescr li:nth-child(2) { 
+  text-align: center;
+}
+
+#tabDescr tr.noprint
+{
+  display:none;
+}
+.hidden.shown
+{
+  display: block;
+}
+#orgTable tr.dflLnk
+{
+  text-align: left;
+}
+
+.results-tabs .toolbar .alignment { 
+	width:1em;
+	height:1em;
+	border:1px solid black;
+	display:inline-block;
+	vertical-align:middle;
+	background-color: #000; }
+
+#tabGraphic ul.legend
+{
+  display: none;
+}
+
+#showCDSFeature {
+  display: inline;
+}
+
+.results dt {
+    font-weight: bold;
+    width: 8em;
+    float: left;
+    clear: left;
+    padding-top: 0.1em;
+    padding-bottom: 0.2em;
+}
+
+
+#btnAlign,#ulAlign {
+  padding-left: 0;
+  margin-top: 0.5em;
+}
+#tabDescr
+{
+  margin-top: -2em;
+}
+
+#hsum dl{
+  margin-left: 1em;
+}
