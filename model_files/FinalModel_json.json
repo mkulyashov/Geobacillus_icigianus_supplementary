@@ -66743,7 +66743,7 @@
 }
 },
 {
-"id":"BIOMASS_Geobacillus",
+"id":"BIOMASS_Geobacillus_core_w_GAM",
 "name":"GramPositiveBiomass auto biomass",
 "metabolites":{
 "10fthf_c":-0.00793965859468043,
